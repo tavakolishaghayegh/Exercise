@@ -1,0 +1,32 @@
+.card {
+  width: 400px;
+  height: 200px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin: 0 auto;
+
+  margin-top: 60px;
+}
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.description {
+  text-align: center;
+  font-style: italic;
+}
+.price {
+  text-align: center;
+  font-weight: bold;
+}
+.button {
+  text-align: center;
+}
+.shopping {
+  background-color: bisque;
+  display: block;
+  margin: 0 auto;
+}
