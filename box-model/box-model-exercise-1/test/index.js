@@ -25,3 +25,6 @@ car.year = 2004;
 const selectedKey = "color";
 car["color"] = "blue";
 console.log(car.color);
+
+const family = ["sara", "ali", "mani", "sepehr", "negin"];
+console.log(family[3]);
