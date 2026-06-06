@@ -28,3 +28,13 @@ console.log(car.color);
 
 const family = ["sara", "ali", "mani", "sepehr", "negin"];
 console.log(family[3]);
+
+function hello() {
+  console.log("salam");
+}
+hello();
+
+function salam(firstName) {
+  console.log("hello " + firstName);
+}
+salam("shaghayegh");
