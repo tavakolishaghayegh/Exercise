@@ -38,3 +38,10 @@ function salam(firstName) {
   console.log("hello " + firstName);
 }
 salam("shaghayegh");
+
+function colorName(color) {
+  console.log(`This is a  ${color} ball.`);
+}
+colorName("red");
+colorName("green");
+colorName("gray");
