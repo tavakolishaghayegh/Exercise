@@ -45,3 +45,24 @@ function colorName(color) {
 colorName("red");
 colorName("green");
 colorName("gray");
+
+let a = 82;
+let b = 7;
+console.log(a + b);
+console.log(a % b);
+console.log(a - b);
+console.log(a / b);
+console.log(a * b);
+console.log(a ** b);
+console.log(++b);
+console.log(--a);
+
+const x = 8 + 12 * 21;
+console.log(x);
+
+let c = 7;
+let d = 5;
+c += 4;
+console.log(c);
+d -= 7;
+console.log(d);
