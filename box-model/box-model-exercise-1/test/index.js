@@ -74,3 +74,11 @@ console.log(e < 1);
 console.log(e === 1);
 console.log(e !== 1);
 console.log(e == "1");
+
+const f = 12;
+const isPozitive = f > 0 ? " Yes" : " No";
+console.log(isPozitive);
+
+const s = -18;
+const isNegative = s > 0 ? " Yes" : " No";
+console.log(isNegative);
