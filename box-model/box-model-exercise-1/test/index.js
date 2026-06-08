@@ -66,3 +66,11 @@ c += 4;
 console.log(c);
 d -= 7;
 console.log(d);
+
+let e = 1;
+console.log(e > 1);
+console.log(e >= 1);
+console.log(e < 1);
+console.log(e === 1);
+console.log(e !== 1);
+console.log(e == "1");
