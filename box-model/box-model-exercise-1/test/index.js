@@ -92,3 +92,7 @@ console.log(g > 12 || g < 3);
 console.log(g > 12 || g < 11);
 console.log(!(g > 9));
 console.log(!(g > 22));
+
+const mark = 70;
+const isPassd = mark >= 60 ? true : false;
+console.log(isPassd);
