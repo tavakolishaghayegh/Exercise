@@ -82,3 +82,13 @@ console.log(isPozitive);
 const s = -18;
 const isNegative = s > 0 ? " Yes" : " No";
 console.log(isNegative);
+
+const g = 10;
+console.log(g > 9 && g < 11);
+console.log(g > 13 && g < 11);
+console.log(g > 8 && g < 11);
+console.log(g > 9 || g < 11);
+console.log(g > 12 || g < 3);
+console.log(g > 12 || g < 11);
+console.log(!(g > 9));
+console.log(!(g > 22));
