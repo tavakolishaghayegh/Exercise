@@ -96,3 +96,19 @@ console.log(!(g > 22));
 const mark = 70;
 const isPassd = mark >= 60 ? true : false;
 console.log(isPassd);
+
+const price = 100000;
+if (price < 100000) {
+  console.log("0% discount");
+} else if (price < 500000) {
+  console.log("10% discount");
+} else {
+  console.log("20% discount");
+}
+
+const number = 100;
+if (number > 85) {
+  console.log("false");
+} else {
+  console.log("true");
+}
