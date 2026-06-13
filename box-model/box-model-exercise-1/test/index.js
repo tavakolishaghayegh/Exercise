@@ -112,3 +112,32 @@ if (number > 85) {
 } else {
   console.log("true");
 }
+
+let day = 6;
+switch (day) {
+  case 1:
+    day = " شنبه";
+    break;
+  case 2:
+    day = "  یک شنبه ";
+    break;
+  case 3:
+    day = " دو شنبه";
+    break;
+  case 4:
+    day = "  سه شنبه";
+    break;
+  case 5:
+    day = "  چهار شنبه";
+    break;
+  case 6:
+    day = "  پنج شنبه";
+    break;
+  case 7:
+    day = "  جمعه";
+    break;
+  default:
+    day = "مقدار ورودی صحیح نیست";
+    break;
+}
+console.log(day);
