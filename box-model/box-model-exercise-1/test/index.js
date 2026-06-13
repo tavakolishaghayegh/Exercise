@@ -141,3 +141,7 @@ switch (day) {
     break;
 }
 console.log(day);
+
+for (let i = 0; i < 5; i++) {
+  console.log("hello");
+}
