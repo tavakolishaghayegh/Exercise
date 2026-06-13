@@ -145,3 +145,9 @@ console.log(day);
 for (let i = 0; i < 5; i++) {
   console.log("hello");
 }
+
+for (let x = 10; x > 0; x--) {
+  if (x % 2 === 0) {
+    console.log(x);
+  }
+}
