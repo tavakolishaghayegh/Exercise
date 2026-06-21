@@ -151,3 +151,13 @@ for (let x = 10; x > 0; x--) {
     console.log(x);
   }
 }
+
+const colors = ["red", "green", "blue", "black", "white"];
+for (let color of colors) {
+  console.log(color);
+}
+
+const lastName = "tavakoli";
+for (let letter of lastName) {
+  console.log(letter);
+}
