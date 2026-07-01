@@ -166,12 +166,29 @@ const product = {
   brand: "Apple",
   title: "Macbook Air",
   ram: "16GB",
-  stock: 10,
+  stock: {
+    silve: 10,
+    white: 15,
+  },
   isActive: true,
   price: 100000000,
   discount: 10,
   color: "silver",
+  accessories: ["charger", "mouse", "pad"],
 };
+
+function finalPrice(price, discount) {
+  const discountedPrice = (price * discount) / 100;
+  const finalPrice = price - discountedPrice;
+  return finalPrice;
+}
 
 console.log(product.ram);
 console.log(product["color"]);
+
+for (let key in product) {
+  console.log(product[key]);
+}
+
+const finalPriceValue = finalPrice(product.price, product.discount);
+console.log(finalPriceValue);
