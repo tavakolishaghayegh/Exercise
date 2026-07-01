@@ -161,3 +161,17 @@ const lastName = "tavakoli";
 for (let letter of lastName) {
   console.log(letter);
 }
+
+const product = {
+  brand: "Apple",
+  title: "Macbook Air",
+  ram: "16GB",
+  stock: 10,
+  isActive: true,
+  price: 100000000,
+  discount: 10,
+  color: "silver",
+};
+
+console.log(product.ram);
+console.log(product["color"]);
