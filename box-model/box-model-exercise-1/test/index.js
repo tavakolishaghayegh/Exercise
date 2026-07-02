@@ -192,3 +192,9 @@ for (let key in product) {
 
 const finalPriceValue = finalPrice(product.price, product.discount);
 console.log(finalPriceValue);
+
+let n = { value: 1 };
+let y = { ...n };
+n.value = 0;
+console.log(n);
+console.log(y);
