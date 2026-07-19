@@ -201,3 +201,6 @@ console.log(y);
 
 const o = Math.sqrt(64);
 console.log(o);
+
+const q = Math.min(89, 90, 2, 23);
+console.log(q);
