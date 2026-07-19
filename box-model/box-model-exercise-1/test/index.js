@@ -204,3 +204,6 @@ console.log(o);
 
 const q = Math.min(89, 90, 2, 23);
 console.log(q);
+
+const r = Math.round(1.76);
+console.log(r);
