@@ -198,3 +198,6 @@ let y = { ...n };
 n.value = 0;
 console.log(n);
 console.log(y);
+
+const o = Math.sqrt(64);
+console.log(o);
