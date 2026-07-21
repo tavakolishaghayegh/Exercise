@@ -207,3 +207,11 @@ console.log(q);
 
 const r = Math.round(1.76);
 console.log(r);
+
+const date = new Date();
+console.log(date);
+
+const greeting = (userName) => {
+  console.log(`Hi, How are you ${userName}?`);
+};
+greeting("Mehrdad");
